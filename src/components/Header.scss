@@ -1,0 +1,58 @@
+nav {
+    line-height: normal !important;
+    padding: 15px 0;
+    background-color: white !important;
+
+
+    .input-field {
+        width: 177px !important;
+        padding: 3px 3px 3px 3px;
+        color: #262626;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+
+        input {
+            font-size: 12px;
+            margin: 0 !important;
+            :focus {
+                text-align: left;
+            }
+        }
+
+        label {
+            left: 0 !important;
+            i {
+                color: #dbdbdb !important;
+            }
+        }
+
+        i {
+            right: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            line-height: normal !important;
+
+            ::after {
+                color: #dbdbdb !important;
+            }
+        }
+    }
+}
+
+
+.brand-logo {
+    // margin: 15px;
+    font-size: 0 !important;
+
+    .logo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .seperator {
+        height: 28px;
+        width: 1px;
+        background-color: rgba(var(--i1d,38,38,38),1);
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,46 @@
+.story-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #262626;
+    color: white;
+}
+
+.story {
+    width: 500px;
+}
+
+.collection {
+    background-color: #262626 !important;
+    border: none !important;
+}
+
+.collection-item {
+    background-color: #262626 !important;
+    min-height: 60px !important;
+}
+
+.ml10 {
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+
+.avatar {
+    img {
+        height: 32px !important;
+        width: 32px !important;
+    }
+}
+
+
+.story-progress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    margin-right: 5px !important;
+    border-radius: 3px;
+}
