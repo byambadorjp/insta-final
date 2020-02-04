@@ -9,38 +9,93 @@
 
 .story {
     width: 500px;
-}
 
-.collection {
-    background-color: #262626 !important;
-    border: none !important;
-}
+    .collection {
+        background-color: #262626 !important;
+        border: none !important;
+    }
+    
+    .collection-item {
+        background-color: #262626 !important;
+        min-height: 60px !important;
+    }
 
-.collection-item {
-    background-color: #262626 !important;
-    min-height: 60px !important;
-}
-
-.ml10 {
-    margin-left: 10px;
-    opacity: 0.6;
-}
-
-
-.avatar {
-    img {
-        height: 32px !important;
-        width: 32px !important;
+    .ml10 {
+        margin-left: 10px;
+        opacity: 0.6;
+    }
+    
+    .pause {
+        width: 70px;
+        height: 20px;
+        position: absolute;
+        right: 50px;
+        top: calc(50% - 10px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+    
+    
+    .avatar {
+        img {
+            height: 32px !important;
+            width: 32px !important;
+        }
     }
 }
-
 
 .story-progress {
     display: flex;
     justify-content: space-between;
+
+
+    .progress {
+        margin-right: 5px !important;
+        border-radius: 3px;
+    }
+
+    .progress, .determinate {
+        transition: none !important;
+    }
 }
 
-.progress {
-    margin-right: 5px !important;
-    border-radius: 3px;
+
+.story-content {
+    position: relative;
+    height: calc(100% - 120px);
+
+    .carousel, .carousel-item, img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .story-prev {
+        position: absolute;
+        background-position: 0 -366px;
+        background-size: 410px 396px;
+        height: 30px !important;
+        width: 30px !important;
+        top: calc(50% - 15px);
+        left: -50px;
+    }
+
+    .story-next {
+        position: absolute;
+        background-position: -31px -366px;
+        background-size: 410px 396px;
+        height: 30px !important;
+        width: 30px !important;
+        top: calc(50% - 15px);
+        right: -50px;
+    }
+
+    .story-close {
+        position: absolute;
+        background-position: -247px -174px;
+        background-size: 410px 396px;
+        top: 0;
+        right: -50px;
+    }
 }

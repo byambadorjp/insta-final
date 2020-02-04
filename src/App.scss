@@ -3,13 +3,102 @@ body {
 }
 
 
+@media only screen and (min-width: 993px){
+    .container {
+        width: 50% !important;
+    }
+}
+
+
+
 .sprite {
     background-image: url('./img/sprite.png');
     height: 24px;
     width: 24px;
 }
 
-.more {
+
+.sprite2 {
     background-repeat: no-repeat;
-    background-position: -338px -324px;
+    background-image: url('./img/sprite2.png');
+    height: 24px;
+    width: 24px;
+}
+
+.sprite3 {
+    background-repeat: no-repeat;
+    background-image: url('./img/sprite3.png');
+    height: 24px;
+    width: 24px;
+}
+
+
+.story-close {
+    background-position: -247px -174px;
+    background-size: 410px 396px;
+}
+
+.story-next {
+    background-position: -31px -366px;
+    background-size: 410px 396px;
+}
+
+.story-prev {
+    background-position: 0 -366px;
+    background-size: 410px 396px;
+}
+
+.story-more {
+    background-size: 411px 393px;
+    background-position: -300px -319px;
+}
+
+.more {
+    background-size: 411px 393px;
+    background-position: -350px -319px;
+}
+
+.heart {
+    background-size: 411px 393px;
+    background-position: -50px -319px;
+}
+
+.heart-red {
+    background-size: 411px 393px;
+    background-position: -25px -319px;
+}
+
+.comment {
+    background-size: 411px 393px;
+    background-position: -125px -294px;
+}
+
+.share {
+    background-size: 411px 393px;
+    background-position: -200px -294px;
+}
+
+.bookmark {
+    background-size: 411px 393px;
+    background-position: -200px -344px;
+}
+
+.right-chevron {
+    position: absolute;
+    top: calc(50% - 15px);
+    right: 10px;
+    height: 30px !important;
+    width: 30px !important;
+    background-size: 410px 396px;
+    background-position: -31px -366px;
+}
+
+.left-chevron {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 10px;
+    height: 30px !important;
+    width: 30px !important;
+    background-size: 410px 396px;
+    background-position: 0 -366px;
 }

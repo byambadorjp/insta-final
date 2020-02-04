@@ -1,0 +1,35 @@
+.story-list {
+    margin-top: 30px;
+
+    .collection-item {
+        min-height: 50px !important;
+    }
+
+    .collection, .collection-item {
+        border: none !important;
+    }
+
+    .main-title {
+        font-weight: 600;
+        color: rgba(var(--f52,153,153,153),1);
+        font-size: 14px;
+        line-height: 18px;
+        margin: 15px 20px 10px 10px;
+    }
+
+    img {
+        height: 34px !important;
+        width: 34px !important;
+    }
+
+    .title {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
+
+    .time {
+        font-size: 10px;
+        line-height: 12px;
+        color: rgba(var(--f52,153,153,153),1);
+    }
+}
