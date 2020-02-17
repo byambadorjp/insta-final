@@ -75,7 +75,7 @@ const Story = (props) => {
     }
 
     const closeStory = () => {
-        props.setStory(false)
+        props.setStorySwitch(false)
     }
 
 
