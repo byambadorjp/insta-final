@@ -1,4 +1,6 @@
-Instagram Clone example link https://insta-story-9d914.firebaseapp.com
+## Instagram Clone Demo
+
+Instagram Clone Demo -> https://insta-story-9d914.firebaseapp.com
 
 This example project includes 3 components:
   - Header
