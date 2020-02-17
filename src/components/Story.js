@@ -9,8 +9,8 @@ const Story = (props) => {
 
 
     const getComplete = (i) => {
-        if (i == pid){
-            if (complete == 100){
+        if (i === pid){
+            if (complete === 100){
                 carouselInstance.current.next()
                 setPid(pid + 1)
                 setComplete(0)
@@ -87,7 +87,7 @@ const Story = (props) => {
                         <img src={props.avatarUrl} alt="" class="circle" />
                         <span class="title">{props.name}</span>
                         <span class="ml10">1h</span>
-                        {paused && <a class="pause white-text grey darken-2">paused</a>}
+                        {paused && <a href="#home" class="pause white-text grey darken-2">paused</a>}
                         <a href="#!" class="secondary-content">
                             <div className="sprite more"></div>
                         </a>

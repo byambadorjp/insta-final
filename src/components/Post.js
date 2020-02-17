@@ -21,7 +21,7 @@ const Post = ({ avatarUrl, postedUser, imgUrls }) => {
         return () => {
             carouselInstance.current.destroy()
         }
-    }, [])
+    }, [imgUrls])
 
 
     useEffect(() => {

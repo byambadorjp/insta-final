@@ -2,10 +2,10 @@ import React from 'react'
 import './StoryList.scss'
 
 
-const StoryList = ({ stories, setStory, setStoryDT}) => {
+const StoryList = ({ stories, setStorySwitch, setStoryDT}) => {
 
     const clicked = (story) => {
-        setStory(true)
+        setStorySwitch(true)
         setStoryDT(story)
     }
 
